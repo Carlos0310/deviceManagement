@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://118.195.192.23:26000/deviceManagement?serverTimezone=UTC
+    username: xjm
+    password: "gauss@0524"
+    driver-class-name: org.postgresql.Driver
+#  jackson:
+#    date-format: yyyy-MM-dd
